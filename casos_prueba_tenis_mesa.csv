@@ -1,0 +1,19 @@
+Caso,Descripción,Pasos,Resultado Esperado,Estado
+TC001,Iniciar un juego nuevo con nombres de jugadores,"1. Ingresar nombre del Jugador 1
+2. Ingresar nombre del Jugador 2
+3. Hacer clic en 'Iniciar Juego'",El marcador muestra ambos jugadores con puntuación 0-0,Aprobado
+TC002,Agregar un punto al Jugador 1,1. Hacer clic en botón '+1' del Jugador 1,La puntuación del Jugador 1 incrementa en 1,Aprobado
+TC003,Deshacer un punto del Jugador 2,"1. Jugador 2 tiene puntuación mayor a 0
+2. Hacer clic en botón '-1' del Jugador 2",La puntuación del Jugador 2 decrementa en 1,Aprobado
+TC004,Victoria con puntuación 11-9,"1. Jugador 1 alcanza 11 puntos
+2. Jugador 2 tiene 9 puntos",El sistema anuncia 'Ganador: Jugador 1' y deshabilita botones de puntuación,Aprobado
+TC005,Victoria con puntuación 13-11 (partido reñido),"1. Ambos jugadores llegan a 10-10
+2. Continúa hasta 11-11
+3. Jugador 1 alcanza 13 puntos
+4. Jugador 2 tiene 11 puntos",El sistema anuncia 'Ganador: Jugador 1' solo cuando hay ventaja de 2 puntos,Aprobado
+TC006,No declarar ganador con puntuación 11-10,"1. Jugador 1 tiene 11 puntos
+2. Jugador 2 tiene 10 puntos",El juego continúa (no se declara ganador porque la ventaja es solo de 1 punto),Aprobado
+TC007,Reiniciar juego después de victoria,"1. Completar un juego con ganador
+2. Hacer clic en 'Nuevo Juego'",Las puntuaciones se reinician a 0-0 y se permite ingresar nuevos nombres,Aprobado
+TC008,Prevenir puntuación negativa,"1. Jugador tiene puntuación de 0
+2. Hacer clic en botón '-1'",La puntuación permanece en 0 (no permite valores negativos),Aprobado
