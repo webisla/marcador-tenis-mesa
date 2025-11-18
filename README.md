@@ -1,2 +1,11 @@
-# marcador-tenis-mesa
-Aplicación para registrar y visualizar la puntuación en partidos de tenis de mesa entre dos jugadores. Permite sumar y deshacer puntos, anuncia al ganador y reinicia el marcador. Proyecto académico con documentación, casos de prueba y diagrama incluidos.
+# Marcador de Tenis de Mesa
+
+Aplicación para registrar puntuaciones de tenis de mesa.  
+## Cómo usar
+1. Ejecute el archivo marcador_tenis_mesa.py en su computador (requiere Python 3).
+2. Siga las instrucciones en pantalla para ingresar jugadores, sumar y deshacer puntos.
+
+## Otros archivos
+- informe-tecnico-tenis-mesa.pdf: explicación completa del proyecto.
+- casos_prueba_tenis_mesa.csv: pruebas realizadas.
+- diagrama_flujo.png: flujo lógico del programa.
